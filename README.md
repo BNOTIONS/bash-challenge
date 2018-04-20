@@ -19,3 +19,5 @@ Produce a shell script which either accepts the contents of the file as a pipe f
 
 The script should sort the output so the list of filtered users is presented in reverse alphabetical order by username.
 The script should not output any of the quotation marks from the input csv.
+
+Please add comments to your script file explaining your approach / how your script accomplishes its goal.

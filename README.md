@@ -15,7 +15,7 @@ The included file `users.csv` starts with a header line and is followed by a sho
 
 Produce a shell script which either accepts the contents of the file as a pipe from a `cat` or is passed as an argument on the command line. The script should filter for only users with the role of "actor" and should discard the header line of the input csv. Output should be a list of users on stdout in the following format:
 
-"FirstName LastName <email>"
+"FirstName LastName &lt;email&gt;"
 
 The script should sort the output so the list of filtered users is presented in reverse alphabetical order by username.
 The script should not output any of the quotation marks from the input csv.

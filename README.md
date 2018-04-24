@@ -13,7 +13,7 @@ Using the above links as starting points / reference, plus anything else you can
 
 The included file `users.csv` starts with a header line and is followed by a short amount of records. Using tools already available to you via the terminal of your mac computer:
 
-Produce a shell script which either accepts the contents of the file as a pipe from a `cat` or is passed as an argument on the command line. The script should filter for only users with the role of "actor" and should discard the header line of the input csv. Output should be a list of users on stdout in the following format:
+Produce a shell script which accepts the contents of the file as a pipe from a `cat`, alternatively your shell script may also accept an argument on the command line in order to pass in the input file `users.csv`. The script should filter for only users with the role of "actor" and should discard the header line of the input csv. Output should be a list of users on stdout in the following format, which is full name followed by email address enclosed in <>:
 
 "FirstName LastName &lt;email&gt;"
 
